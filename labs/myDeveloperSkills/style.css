@@ -1,0 +1,19 @@
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+
+h1 {
+    text-align: center;
+    background-color: #93c470;
+    color: white
+}
+
+
+div .skills {
+    color: #FFAA3E;
+}
+

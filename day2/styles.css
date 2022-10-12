@@ -1,0 +1,45 @@
+.click-events button {
+    padding: 8px;
+    font-size: 1.2em;
+    border: none;
+    background-color: brown;
+    color: blanchedalmond;
+    transition: color .3s, background-color .3s;
+}
+
+/* Changes color when hovering over the button */
+.click-events button:hover {
+    background-color: blanchedalmond;
+    color: brown;
+}
+
+.bubble {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+}
+
+.bubble div {
+    width: 100px;
+    height: 100px;
+    color: pink;
+    background-color: pink;
+    margin: auto;
+}
+
+form {
+    margin: 10px;
+}
+
+form input {
+    border: none;
+    background-color: brown;
+    color: blanchedalmond;
+    font-size: 1.1em;
+    padding: 4px;
+}
+
+form input [type="text"]{
+    border: 3px dotted green;
+}
